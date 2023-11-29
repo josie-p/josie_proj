@@ -1,0 +1,20 @@
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list > li{
+    border: 2px solid chartreuse;
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+}
+
+.nav-list > li > a{
+    text-decoration: none;
+}
