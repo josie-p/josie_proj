@@ -1,8 +1,27 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
+import Home from "../components/Home.astro";
+import Portfolio from "../components/Portfolio.astro";
+import About from "../components/Portfolio.astro";
+import Contact from "../components/Contact.astro";
+import Nav from "../components/Nav.astro";
 ---
 
 <MainLayout title="Josie's Site">
-	<h1>hi from home!!</h1>
+	<Nav/>
+	<div id="home">
+		<Home/>
+	</div>
+	<div id="portfolio">
+		<Portfolio/>
+	</div>
+	<div id="about">
+		<About/>
+	</div>
+	<div id="contact">
+		<Contact/>
+	</div>
+	
+	
 </MainLayout>
 
