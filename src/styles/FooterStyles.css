@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+
+    border: solid 3px chartreuse ;
+    
+    text-align: center;
+    height: 20svh;
+}

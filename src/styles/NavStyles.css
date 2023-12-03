@@ -13,6 +13,8 @@
     border: 2px solid chartreuse;
     /* flex-shrink: 1;
     flex-grow: 1; */
+
+    font-size: 1.5rem;
 }
 
 .nav-list > li > a{
