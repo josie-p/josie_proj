@@ -1,4 +1,21 @@
 #home-section{
     height: 100%;
     border: solid 5px palevioletred;
+    
+}
+
+#grid-home-section{
+    /* width: 95%; */
+ margin: auto auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 1rem;
+ border: 3px solid purple;
+}
+#grid-home-section > div{
+    text-align: center;
+}
+
+#grid-home-section > div > p{
+ font-size: 5rem;
 }
