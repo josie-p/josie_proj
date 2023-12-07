@@ -17,5 +17,10 @@
 }
 
 #grid-home-section > div > p{
- font-size: 5rem;
+ font-size: 3rem;
+}
+
+#grid-home-section > div > img{
+    height: 300px;
+    width: 300px; 
 }
