@@ -5,12 +5,14 @@
     justify-content: center;
     align-items: center;
     border: solid 5px palevioletred;
+    overflow: hidden; /* might need to change this later. but it works for now- just needed it to stop grid from overflowing*/
     
 }
 
 #grid-home-section{
     /* width: 95%; */
     /* min-height: 100vh; */
+min-width: 100vw;
  margin: auto auto;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;

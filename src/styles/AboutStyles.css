@@ -1,4 +1,52 @@
 #about-section{
-    height: 100%;
+    min-height: 100vh;
     border: solid 5px lightseagreen;
+    padding: 15px;
+}
+
+#about-content{
+    /* height: 100%;
+    border: solid 5px lightseagreen; */
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image, .about-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about-text{
+    width: 40%;
+}
+
+/* .about-image{
+    width: 100%; 
+   height: auto;
+} */
+
+#personal-photo{
+    height: 500px;
+    width: 450px;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1027px) {
+    /* if viewport width is 1027 px or fewer, #about-content will flex in a column, not a row */
+    #about-content{
+        flex-direction: column;
+    }
+
+    .about-text{
+        width: 60%;
+    }
 }
